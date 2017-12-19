@@ -20,7 +20,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 1){
             return new ColorsFragment();
         } else if (position == 2) {
-            return new FamilyFragment();
+            return new FamilyActivity();
         } else {
             return new PhrasesFragment();
         }

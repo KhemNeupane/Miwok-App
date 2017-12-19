@@ -17,7 +17,7 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FamilyFragment extends Fragment {
+public class FamilyActivity extends Fragment {
 
     // media player object
     private MediaPlayer mMediaPlayer;
@@ -47,7 +47,7 @@ public class FamilyFragment extends Fragment {
         }
     };
 
-    public FamilyFragment() {
+    public FamilyActivity() {
         // Required empty public constructor
     }
 
